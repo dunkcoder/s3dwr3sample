@@ -6,15 +6,15 @@
 <script type="text/javascript"
 	src="/s3dwr3sample/dwr/interface/userService.js"></script>
 <script>
-	function getUserByDwr() {
-		userService.getUser({
-			callback : getUserByDwrCallBack
-		});
-	}
+    function getUserByDwr() {
+        userService.getUser({
+            callback : getUserByDwrCallBack
+        });
+    }
 
-	function getUserByDwrCallBack(data) {
-		alert(dwr.util.toDescriptiveString(data, 3));
-	}
+    function getUserByDwrCallBack(data) {
+        alert(dwr.util.toDescriptiveString(data, 3));
+    }
 </script>
 </head>
 <body>
