@@ -4,9 +4,6 @@ import com.dunkcoder.s3dwr3sample.model.User;
 
 public class UserService {
 
-    public UserService() {
-    }
-
     public User getUser() throws Exception {
         User user = new User();
         user.setId(1);
